@@ -44,49 +44,10 @@ const Landing = props => {
               <Heading as='h1' marginBottom={6}>
                 KHome Manager
               </Heading>
-              <Stack as='form' spacing={3} marginBottom={3}>
-                <FormControl id='email'>
-                  <FormLabel>Email</FormLabel>
-                  <Input
-                    type='email'
-                    autoComplete='email'
-                    placeholder='Fill your email'
-                    variant='filled'
-                  />
-                </FormControl>
-                <FormControl id='password'>
-                  <FormLabel>Password</FormLabel>
-                  <Input
-                    type='password'
-                    autoComplete='current-password'
-                    placeholder='Enter your password'
-                    variant='filled'
-                  />
-                </FormControl>
-                {/* <Button colorScheme='blue' isFullWidth type='submit'>
-                Log in
-              </Button> */}
-                <Button
-                  as={RouterLink}
-                  to='/homes'
-                  colorScheme='blue'
-                  isFullWidth
-                >
-                  Log in
-                </Button>
-              </Stack>
-              <Flex
-                justifyContent='space-between'
-                alignItems='center'
-                color='gray.500'
-              >
-                <Link as={RouterLink} to='/register' textAlign='end'>
-                  Don't have an account?
-                </Link>
-                <Link as={RouterLink} to='/reset-password' textAlign='end'>
-                  Forgot password?
-                </Link>
-              </Flex>
+
+              <Button isFullWidth as={RouterLink} to='/auth/login'>
+                Go to Login
+              </Button>
             </Box>
           </Center>
           <Stack
