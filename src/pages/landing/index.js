@@ -6,16 +6,10 @@ import {
   Button,
   Center,
   Container,
-  Flex,
-  FormControl,
-  FormLabel,
   Icon,
   IconButton,
-  Input,
-  Link,
   Heading,
   Stack,
-  Text,
   Tooltip,
 } from '@chakra-ui/react'
 

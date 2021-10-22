@@ -1,0 +1,5 @@
+.firebase-emulator-warning {
+  /* display: none; */
+  filter: opacity(0.5) !important;
+  backdrop-filter: blur(20px) !important;
+}

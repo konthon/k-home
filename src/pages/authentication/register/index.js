@@ -85,7 +85,7 @@ const Register = props => {
 
   return (
     <Box
-      backgroundImage='/images/backgrounds/background-day-livingroom-1.jpg'
+      backgroundImage='/assets/images/backgrounds/background-day-livingroom-1.jpg'
       backgroundPosition='center center'
       backgroundSize='cover'
       backgroundColor='gray.100'
